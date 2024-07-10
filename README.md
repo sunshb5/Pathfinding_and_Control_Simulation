@@ -1,25 +1,16 @@
 # Table of Contents
    * [Introduction](#Introduction)
-   * [Path Plan](#path-planning)
-      * [Dynamic Window Approach](#dynamic-window-approach)
-      * [Grid based search](#grid-based-search)
-         * [Dijkstra algorithm](#dijkstra-algorithm)
-         * [A* algorithm](#a-algorithm)
-         * [D* algorithm](#d-algorithm)
-         * [D* Lite algorithm](#d-lite-algorithm)
-         * [Potential Field algorithm](#potential-field-algorithm)
-         * [Grid based coverage path planning](#grid-based-coverage-path-planning)
+   * [Path Plan](#Path Plan)
+      * [Dijkstra algorithm](#dijkstra-algorithm)
+      * [A* algorithm](#a-algorithm)
       * [Probabilistic Road-Map (PRM) planning](#probabilistic-road-map-prm-planning)
 
    * [Path Tracking](#path-tracking)
-      * [move to a pose control](#move-to-a-pose-control)
       * [Stanley control](#stanley-control)
       * [Rear wheel feedback control](#rear-wheel-feedback-control)
-      * [Linear–quadratic regulator (LQR) speed and steering control](#linearquadratic-regulator-lqr-speed-and-steering-control)
-      * [Model predictive speed and steering control](#model-predictive-speed-and-steering-control)
-      * [Nonlinear Model predictive control with C-GMRES](#nonlinear-model-predictive-control-with-c-gmres)
-   * [Requirements](#requirements)
-   * [How to use](#how-to-use)
+   * [Directory Structure](#Directory Structure)
+   * [Requirements](#Requirements)
+   * [Run](#Run)
 
 
 # Introduction
