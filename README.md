@@ -1,6 +1,32 @@
+# Table of Contents
+   * [Introduction](#Introduction)
+   * [Path Plan](#path-planning)
+      * [Dynamic Window Approach](#dynamic-window-approach)
+      * [Grid based search](#grid-based-search)
+         * [Dijkstra algorithm](#dijkstra-algorithm)
+         * [A* algorithm](#a-algorithm)
+         * [D* algorithm](#d-algorithm)
+         * [D* Lite algorithm](#d-lite-algorithm)
+         * [Potential Field algorithm](#potential-field-algorithm)
+         * [Grid based coverage path planning](#grid-based-coverage-path-planning)
+      * [Probabilistic Road-Map (PRM) planning](#probabilistic-road-map-prm-planning)
+
+   * [Path Tracking](#path-tracking)
+      * [move to a pose control](#move-to-a-pose-control)
+      * [Stanley control](#stanley-control)
+      * [Rear wheel feedback control](#rear-wheel-feedback-control)
+      * [Linear–quadratic regulator (LQR) speed and steering control](#linearquadratic-regulator-lqr-speed-and-steering-control)
+      * [Model predictive speed and steering control](#model-predictive-speed-and-steering-control)
+      * [Nonlinear Model predictive control with C-GMRES](#nonlinear-model-predictive-control-with-c-gmres)
+   * [Requirements](#requirements)
+   * [How to use](#how-to-use)
+
+
 # Introduction
 
-+ 本项目设计了一个场景，包括起点，终点，障碍物，分别采用4种规划方法、4种横向控制方法实现路径跟踪过程，模拟了移动机器人运动的过程，机器人本体的运动控制模型为差分小车。
++ 本项目设计了一个场景，包括起点，终点，障碍物;
++ 分别采用了4种规划方法、4种横向控制方法实现路径规划与跟踪过程，模拟了移动机器人运动的过程;
++ 机器人本体的运动控制模型为差分小车;
 
 
 
