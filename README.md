@@ -1,8 +1,8 @@
 # Table of Contents
    * [Introduction](#Introduction)
    * [Path Plan](#Path-Plan)
-      * [A* algorithm](#A-star)
-      * [Bidirectional A* algorithm](#Bidirectional-A-star)
+      * [A* algorithm](#Astar)
+      * [Bidirectional A* algorithm](#Bidirectional-Astar)
       * [Dijkstra algorithm](#Dijkstra)
       * [Probabilistic Road-Map (PRM) planning](#Probabilistic-Roadmap)
    * [Path Track](#Path-Track)
@@ -26,14 +26,14 @@
 
 # Path plan
 
-### A*
+### Astar
 
 + A* 是一种广泛使用的图遍历和路径规划算法。它有效地在加权图中找到从起始节点到目标节点的最短路径；
 + 使用到达节点的成本（g(n)）和到目标的估计成本（h(n)）来优先探索节点，通常通过优先级队列（如最小堆）实现；
 
 
 
-### Bidirectional A*
+### Bidirectional Astar
 
 + 双向 A* 在 A* 的基础上进行增强，同时从起始节点向目标和从目标向起始节点运行两个 A* 搜索；
 + 对于在大图中找到最短路径而言，通常比传统的 A* 更快，因为它通过中间相遇减少了搜索空间，需要有效的双向图遍历机制；
