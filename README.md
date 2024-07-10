@@ -154,7 +154,7 @@
 
    在环境中安装依赖库。
 
-   ```python
+   ```python:
    pip install requirements.txt
    ```
 
@@ -162,7 +162,7 @@
 
    + 在model/parameter.py文件中修改运行参数以选择规划、跟踪方法；
 
-   ```python
+   ```python:
       """
       
       Plan and Track Method Selection
@@ -185,7 +185,7 @@
 
    + 在model/map.py文件中修改运行参数以更改场景，包括起点、终点及障碍物；
      
-    ```python
+    ```python:
       """
       
       Map Definition, including start, goal and obstacle
@@ -235,9 +235,7 @@
 
    在终端输入命令：
 
-   ```python
+   ```python:
    python main_plan_track.py
    ```
  
-
-
