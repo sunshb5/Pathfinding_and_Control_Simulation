@@ -155,7 +155,7 @@
    在环境中安装依赖库。
 
    ```python:
-   pip install requirements.txt
+   pip install -r requirements.txt
    ```
 
 2. ### 参数调整
