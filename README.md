@@ -1,8 +1,8 @@
 # Table of Contents
    * [Introduction](#Introduction)
    * [Path Plan](#Path-Plan)
-      * [A* algorithm](#A*)
-      * [Bidirectional A* algorithm](#Bidirectional-A*)
+      * [A* algorithm](#A-*)
+      * [Bidirectional A* algorithm](#Bidirectional-A-*)
       * [Dijkstra algorithm](#Dijkstra)
       * [Probabilistic Road-Map (PRM) planning](#Probabilistic-Roadmap)
    * [Path Track](#Path-Track)
