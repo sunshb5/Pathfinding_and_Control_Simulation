@@ -1,6 +1,6 @@
 # Table of Contents
    * [Introduction](#Introduction)
-   * [Path Plan](#Path Plan)
+   * [Path Plan](#Path-Plan)
       * [Dijkstra algorithm](#dijkstra-algorithm)
       * [A* algorithm](#a-algorithm)
       * [Probabilistic Road-Map (PRM) planning](#probabilistic-road-map-prm-planning)
@@ -8,7 +8,7 @@
    * [Path Tracking](#path-tracking)
       * [Stanley control](#stanley-control)
       * [Rear wheel feedback control](#rear-wheel-feedback-control)
-   * [Directory Structure](#Directory Structure)
+   * [Directory Structure](#Directory-Structure)
    * [Requirements](#Requirements)
    * [Run](#Run)
 
